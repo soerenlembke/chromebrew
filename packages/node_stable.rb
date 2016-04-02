@@ -2,8 +2,8 @@ require 'package'
 
 class Node_stable < Package
   version '5.6.0'
-  source_url 'https://nodejs.org/dist/v5.6.0/node-v5.6.0.tar.xz'
-  source_sha1 '522b4f1027549eb8161c1edba222176aba92e294'
+  source_url 'https://nodejs.org/dist/v5.9.1/node-v5.9.1.tar.xz'
+  source_sha1 'e8da38196c37c07ba922c569356988e01348f48344619b60dc0a1b99c941a3de'
 
   depends_on 'buildessential'
   depends_on 'python27'
