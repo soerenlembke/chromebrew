@@ -8,7 +8,7 @@ class Binutils < Package
   depends_on 'buildessential'
 
   def self.build
-    system "CC='gcc' ./configure"
+    system "./configure"
     system "make"
   end
 
