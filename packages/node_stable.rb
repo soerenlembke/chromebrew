@@ -3,7 +3,7 @@ require 'package'
 class Node_stable < Package
   version '5.9.1'
   source_url 'https://nodejs.org/dist/v5.9.1/node-v5.9.1.tar.xz'
-  source_sha1 'e8da38196c37c07ba922c569356988e01348f48344619b60dc0a1b99c941a3de'
+  source_sha1 '6c4c0d164edccc4fc7cff862007478cb65c11848'
 
   depends_on 'buildessential'
   depends_on 'python27'
